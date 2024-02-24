@@ -1,4 +1,3 @@
-#Automação Cadastro
 print('Olá, Seja bem-vindo á IBEV! Para realizar o seu cadastro é necessário preencher os seguintes dados:')
 nomec=input('Informe por favor seu nome completo:')
 cpf=input('Digite seu CPF:')

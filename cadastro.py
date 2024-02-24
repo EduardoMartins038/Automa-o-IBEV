@@ -1,3 +1,15 @@
+#Banco de dados
+import firebase_admin
+from firebase_admin import credentials
+from firebase_admin import firestore
+cred = credentials.Certificate("path/to/serviceAccountKey.json")
+firebase_admin.initialize_app(cred)
+bd=firestore.client()
+data={'nome': 'Eduardo'}
+doc_ref=bd.collection('pessoas').document()
+doc_ref.set(data)
+
+#Automação Cadastro
 print('Olá, Seja bem-vindo á IBEV! Para realizar o seu cadastro é necessário preencher os seguintes dados:')
 nomec=input('Informe por favor seu nome completo:')
 cpf=input('Digite seu CPF:')

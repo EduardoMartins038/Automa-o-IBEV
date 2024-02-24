@@ -5,5 +5,3 @@ Sistema com objetivo de fazer captação de cadastros dos membros da IBEV e real
 
 
 Projeto desenvolvido por três amigos, Eduardo Martins, Arthur Henrique e Breno Gomes
-
-teste

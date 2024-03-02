@@ -1,4 +1,4 @@
-#Banco de dados
+#Banco de dados :)
 
 import firebase_admin
 from firebase_admin import credentials
